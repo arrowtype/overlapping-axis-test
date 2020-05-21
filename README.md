@@ -28,15 +28,15 @@ The resulting font acts in an way I hadn’t expected. The two axes become inter
 
 1. If either axis is at its minimum, the other axis has no effect.
 
-![Result 1](results/result-1.gif)
+![Result 1](result-gifs/result-1.gif)
 
 2. If either axis is at its maximum, the other axis has the same effect it might have if it were operating on its own.
 
-![Result 2](results/result-2.gif)
+![Result 2](result-gifs/result-2.gif)
 
 3. If either axis is set at a partial value, it allows the other axis to have a corresponding partial effect.
 
-![Result 3](results/result-3.gif)
+![Result 3](result-gifs/result-3.gif)
 
 ## Conclusion
 
