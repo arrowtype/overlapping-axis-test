@@ -2,6 +2,9 @@
 
 A test of what happens if two axes in a variable font have an overlapping function, as might be the case if Optical Size were controlled by one opsz set to `pt` values and a secondary opsz axis controlled by `px` values.
 
+TL;DR: A variable font can’t* have two axes which act in the same way, but with different scales.
+
+* It might be possible with some approach of duplicating sources, but this becomes especially unintuitive.
 
 ## Test setup
 
