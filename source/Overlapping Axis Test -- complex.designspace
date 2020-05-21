@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="XONE" name="One" minimum="12" maximum="96" default="12"/>
+    <axis tag="XTWO" name="Two" minimum="16" maximum="128" default="16"/>
+  </axes>
+  <sources>
+    <source filename="Overlapping Axis Test-A.ufo" familyname="Overlapping Axis Test" stylename="A">
+      <location>
+        <dimension name="One" xvalue="12"/>
+        <dimension name="Two" xvalue="16"/>
+      </location>
+    </source>
+    <source filename="Overlapping Axis Test-B.ufo" familyname="Overlapping Axis Test" stylename="B">
+      <location>
+        <dimension name="One" xvalue="96"/>
+        <dimension name="Two" xvalue="16"/>
+      </location>
+    </source>
+    <source filename="Overlapping Axis Test-B.ufo" familyname="Overlapping Axis Test" stylename="D">
+      <location>
+        <dimension name="One" xvalue="12"/>
+        <dimension name="Two" xvalue="128"/>
+      </location>
+    </source>
+  </sources>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+    </dict>
+  </lib>
+</designspace>
