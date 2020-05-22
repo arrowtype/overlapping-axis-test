@@ -38,17 +38,11 @@ I expect the output variable font to have two sets of deltas which would act red
 
 The resulting font acts in an way I hadn’t expected. The two axes become interdependent.
 
-1. If either axis is at its minimum, the other axis has no effect.
+1. If either axis is at its minimum, the other axis has no effect. ![Result 1](result-gifs/result-1.gif)
 
-![Result 1](result-gifs/result-1.gif)
+2. If either axis is at its maximum, the other axis has the same effect it might have if it were operating on its own. ![Result 2](result-gifs/result-2.gif)
 
-2. If either axis is at its maximum, the other axis has the same effect it might have if it were operating on its own.
-
-![Result 2](result-gifs/result-2.gif)
-
-3. If either axis is set at a partial value, it allows the other axis to have a corresponding partial effect.
-
-![Result 3](result-gifs/result-3.gif)
+3. If either axis is set at a partial value, it allows the other axis to have a corresponding partial effect. ![Result 3](result-gifs/result-3.gif)
 
 ## A slightly more complex, three-source test
 
@@ -133,17 +127,11 @@ The `OPSC` axis can act as a scaler of the `opsz` axis. So, if `OPSC` is at 0.75
 
 The results are ... unintuitive and (probably) supremely unuseful. The hypothesis was not supported.
 
-1. If either axis is at its default value of 75%, the other axis has no effect.
+1. If either axis is at its default value of 75%, the other axis has no effect. ![Result 5](result-gifs/result-5.gif)
 
-![Result 5](result-gifs/result-5.gif)
+2. If one axis is turned above the default 75%, the other axis will only have an effect above the default. ![Result 6](result-gifs/result-6.gif)
 
-2. If one axis is turned above the default 75%, the other axis will only have an effect above the default. 
-
-![Result 6](result-gifs/result-6.gif)
-
-3. Similarly, if one axis is turned below the default 75%, the other axis will only have an effect below the default.
-
-![Result 7](result-gifs/result-7.gif)
+3. Similarly, if one axis is turned below the default 75%, the other axis will only have an effect below the default. ![Result 7](result-gifs/result-7.gif)
 
 Results 2 & 3 are initially confusing, but both are actually quite similar behavior to the results of the first, simple test above. 
 
