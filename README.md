@@ -19,8 +19,8 @@ The simplest test is what happens if a designspace has two axes with different s
 ### Test setup
 
 There are two axes: 
-- `XONE`, from 12–96, simulating an opsz in CSS points
-- `XTWO`, from 16–128, simulating a redundant opsz axis in CSS px
+- `XONE`, from 12–96, simulating an opsz in CSS points. Default 12.
+- `XTWO`, from 16–128, simulating a redundant opsz axis in CSS px. Default 16.
 
 There are two sources:
 - Source 1: `Overlapping Axis Test-A.ufo`
@@ -28,7 +28,7 @@ There are two sources:
   - `XTWO` = `16`
 - Source 2: `Overlapping Axis Test-B.ufo`
   - `XONE` = `96`
-  - `XTWO` = `16`
+  - `XTWO` = `128`
 
 ### Hypothesis
 
@@ -51,6 +51,8 @@ What if we alter the original test setup to add have *three* source references, 
 ### Test setup
 
 In `source/Overlapping Axis Test -- complex.designspace`, I have used the same axes as in the simple test.
+- `XONE`, from 12–96, simulating an opsz in CSS points. Default 12.
+- `XTWO`, from 16–128, simulating a redundant opsz axis in CSS px. Default 16.
 
 There are three sources (with one repeated master):
 - Source 1: `Overlapping Axis Test-A.ufo`
@@ -90,8 +92,8 @@ Another possibility for this idea came up: [might it be possible to have a hidde
 ### Test setup
 
 There are two axes: 
-- `opsz`, from 12–96, simulating an opsz in CSS points
-- `OPSC`, from 0–1, simulating a way to scale `opsz`, default at `0.75`
+- `opsz`, from 12–96, simulating an opsz in CSS points. Default 12
+- `OPSC`, from 0–1, simulating a way to scale `opsz`. Default 0.75
 
 There are two sources:
 - Source 1: `Overlapping Axis Test-A.ufo`
